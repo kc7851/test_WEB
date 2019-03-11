@@ -1,0 +1,7 @@
+<?php
+if(!defined('__SWES__')) exit;
+
+checkAdmin(0);
+
+getLink('reload','parent.', $alert , $history);
+?>

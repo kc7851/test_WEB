@@ -1,0 +1,57 @@
+@charset "utf-8";
+
+/* font */
+@font-face{
+	font-family:'NanumGothic';
+	src:url('./NanumGothic.eot');
+	src:local(※),url('./NanumGothic.woff') format('woff');
+}
+@font-face {
+  font-family: 'NanumMyeongjo';
+  src: url('NanumMyeongjo.eot?') format('eot'), url('NanumMyeongjo.woff') format('woff'), url('NanumMyeongjo.ttf') format('truetype');
+}
+
+/* web font*/
+@import url(http://ts.daumcdn.net/custom/blog/0/606/skin/images/nanumgothic.css);
+@import url(http://ts.daumcdn.net/custom/blog/0/606/skin/images/nanummyeongjo.css);
+@import url(http://fonts.googleapis.com/earlyaccess/nanumbrushscript.css);
+
+
+/* Reset */
+body,p,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,caption,form,fieldset,legend,input{margin:0;padding:0;}
+h1,h2,h3,h4,h5,h6{font-size:100%;}
+li{list-style-type:none;}
+img,fieldset{border:0;vertical-align:middle;}
+caption,legend,.blind{font-size:0;line-height:0;width:0;height:0;visibility:hidden;position:absolute;left:-9999px;}
+li img,li a{vertical-align:middle;}
+address,em{font-style:normal;}
+a{text-decoration:none;color:#404040;}
+label,select,input{vertical-align:middle;}
+table{border-collapse:collapse;border-spacing:0;}
+button{cursor:pointer;margin:0;padding:0;}
+header,footer,section,article,aside,nav,hgroup,details,menu,figure,figcaption{display:block;} 
+html, body, iframe {
+   margin:0; /* remove any margins of the IFrame and the body tag */
+   padding:0;
+   height:100%; /* set height 100% so that it fills the entire view port*/
+}
+iframe {
+   display:block; /* force the iframe to display as block */   
+   height:100%; /* assign 100% height */
+   width: 100%;
+   border:none;
+}
+body{font:12px NanumGothic,"나눔고딕", Verdana,Arial,Helvetica,sans-serif !important;min-height:100%;}
+
+/* clearfix */
+.clearfix {*zoom:1}
+.clearfix:after { content:""; clear:both; display:block}
+
+/* style */
+/* 공통 */
+/* 버튼 css */
+.btn{display:inline-block;height:32px;line-height:32px;font-weight:bold;font-size:13px;color:#ffffff;padding:0px;border:0px;}/* color !important; 제거*/
+.btn > a{display:block;color:#ffffff ;}
+.btn.w76{width:76px}
+.btn.w111{width:111px;}
+.btn.blue{background:#525da0;}
